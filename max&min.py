@@ -6,7 +6,7 @@ Sample Output:
 Maximum: 5
 Minimum: 1
 ***
-set_input = input("Enter values separated by space: ")
+set_input = input()
 values_set = set(map(int, set_input.split()))
 maximum_value = max(values_set)
 minimum_value = min(values_set)
